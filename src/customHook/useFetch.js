@@ -5,7 +5,12 @@ export const useFetch = (url) => {
   const [data, setData] = useState([])
 
   const getData = async () => {
-    const response = await fetch(url)
+    const response = await fetch(url,{
+        headers: {
+            "Content-Type": "application/json",
+        },
+        method: "GET"
+    })
 
     const data = await response.json()
     setData(data)
