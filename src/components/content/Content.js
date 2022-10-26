@@ -4,7 +4,9 @@ import Loading from '../loading/Loading'
 import './content.css'
 
 import useFetch from '../../customHook/useFetch'
-let url = 'https://blumlinge2.herokuapp.com/api/smallbouquet/'
+// let url = 'https://blumlinge2.herokuapp.com/api/smallbouquet/'
+let url = 'https://blumlinge2.herokuapp.com/api/smallbouquet/?format=json'
+
 
 const Content = ({ filterItems }) => {
   const { loading, data } = useFetch(url)
