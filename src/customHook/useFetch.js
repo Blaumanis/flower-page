@@ -7,8 +7,9 @@ export const useFetch = (url) => {
   const getData = async () => {
     const response = await fetch(url, {
       method: 'GET',
+      mode: 'no-cors',
       headers: {
-        'Content-type': 'application/json',
+        'Content-Type': 'application/json',
       },
     })
     const data = await response.json()
