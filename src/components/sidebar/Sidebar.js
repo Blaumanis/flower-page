@@ -1,11 +1,9 @@
-import { useEffect, useState, useRef } from 'react'
 import './sidebar.css'
 import Slider from '@mui/material/Slider'
 import { FaChevronUp } from 'react-icons/fa'
 
 const Sidebar = ({
   setFilter,
-  filter,
   categories,
   setValue,
   value,

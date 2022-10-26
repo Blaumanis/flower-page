@@ -27,7 +27,6 @@ const Main = () => {
     <main className='main-container'>
       <Sidebar
         setFilter={setFilter}
-        filter={filter}
         categories={categories}
         valuetext={valuetext}
         setValue={setValue}

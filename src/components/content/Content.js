@@ -9,11 +9,13 @@ let url = 'https://blumlinge2.herokuapp.com/api/smallbouquet/'
 const Content = ({ filterItems }) => {
   const { loading, data } = useFetch(url)
 
+  // pagination function
   const [paginate, setpaginate] = useState(12)
   const loadData = (event) => {
     setpaginate((prevValue) => prevValue + 12)
   }
 
+  // DOM element references
   const loadRef = useRef(null)
   const productsRef = useRef(null)
 
