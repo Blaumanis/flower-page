@@ -9,7 +9,7 @@ export const useFetch = (url) => {
         headers: {
             "Content-Type": "application/json",
         },
-        mode: "no-cors",
+        // mode: "no-cors",
         method: "GET"
     })
 
