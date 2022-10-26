@@ -40,5 +40,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://blumlinge2.herokuapp.com/api/smallbouquet/"
+  "proxy": "https://flower-page.vercel.app/"
 }
