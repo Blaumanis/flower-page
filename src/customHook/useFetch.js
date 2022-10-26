@@ -5,7 +5,12 @@ export const useFetch = (url) => {
     const [data, setData] = useState([])
 
     const getData = async() => {
-        const response = await fetch(url);
+        const response = await fetch(url, {
+            method: 'GET',  
+            withCredentials: true,  
+            crossorigin: true,  
+            mode: 'no-cors',  
+        });
         const data = await response.json();
         setData(data)
         setLoading(false);
