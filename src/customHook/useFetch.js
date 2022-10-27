@@ -6,7 +6,6 @@ export const useFetch = (url) => {
 
   const getData = async () => {
     const response = await fetch(url)
-    console.log(response);
     const data = await response.json()
     setData(data)
     setLoading(false)
