@@ -3,7 +3,7 @@ import './main.css'
 import Sidebar from '../sidebar/Sidebar'
 import Content from '../content/Content'
 import useFetch from '../../customHook/useFetch'
-let url = '/api/smallbouquet/'
+let url = 'https://blumlinge2.herokuapp.com/api/smallbouquet/'
 
 const Main = () => {
   const { data } = useFetch(url)
