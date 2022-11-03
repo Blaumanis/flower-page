@@ -11,9 +11,9 @@
 - CSS3
 - Flexbox
 - CSS Grid
-- [React](https://reactjs.org/) - JS library
+- [React] (https://reactjs.org/) - JS library
 - [Material UI] (https://mui.com/) - React component library
-- [Framer Motion (https://www.framer.com/motion/) - Production-ready motion library from React
+- [Framer Motion] (https://www.framer.com/motion/) - Production-ready motion library from React
 
 ### Things implemented
 
